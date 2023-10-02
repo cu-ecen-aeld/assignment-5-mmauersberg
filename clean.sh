@@ -1,2 +1,4 @@
 #!/bin/sh
-make buildroot/ distclean
+cd buildroot
+make distclean
+
